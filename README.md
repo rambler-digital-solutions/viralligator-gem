@@ -40,7 +40,7 @@ end
 
 ```
 bundle console
-x = Viralligator::Adapter.new
+x = Viralligator::Adapter.new('//viralligator.service:8080')
 x.open_connect
 x.client.topicsCount
 ```
@@ -54,3 +54,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/rambler-digital-solutions/viralligator-gem.
+
+## License
+
+MIT
