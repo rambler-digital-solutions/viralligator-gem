@@ -1,11 +1,11 @@
 PATH
   remote: .
   specs:
-    viralligator (1.2.0)
+    viralligator (1.0.0)
       thrift
 
 GEM
-  remote: http://rubygems.org/
+  remote: https://rubygems.org/
   specs:
     diff-lcs (1.2.5)
     rake (10.5.0)
