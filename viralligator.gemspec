@@ -1,11 +1,8 @@
 # coding: utf-8
-version = File.read(File.expand_path('../VERSION', File.dirname(__FILE__))).strip
-lib = File.expand_path('../lib', __FILE__)
-$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = "viralligator"
-  spec.version       = version
+  spec.version       = '1.0.0'
   spec.authors       = ["Antonov Alexey"]
   spec.email         = ["a.antonov@rambler-co.ru"]
 
